@@ -1,0 +1,28 @@
+{
+  "top_artists": [
+    {
+      "name": "Taylor Swift",
+      "image_url": "https://www.billboard.com/wp-content/uploads/media/taylor-swift-press-wim-2019-cr-Valheria-Roche-billboard-1548.jpg?w=942&h=623&crop=1"
+    },
+    {
+      "name": "Drake",
+      "image_url": "https://i.scdn.co/image/ab676161000051744293385d324db8558179afd9"
+    },
+    {
+      "name": "The Weeknd",
+      "image_url": "https://www.stereofox.com/wp-content/uploads/2016/05/the-weeknd-artist-profile.jpg"
+    },
+    {
+      "name": "Beyonce",
+      "image_url": "https://cdn.britannica.com/59/204159-050-5055F2A9/Beyonce-2013.jpg"
+    },
+    {
+      "name": "Rihanna",
+      "image_url": "https://s.yimg.com/ny/api/res/1.2/3.USUCkiITgYHDvFwCezAQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTQ2MQ--/https://media.zenfs.com/en/purewow_185/2c9db531e09a5d105576508b12f466f7"
+    },
+    {
+      "name": "Nicki Minaj",
+      "image_url": "https://assets.capitalxtra.com/2021/02/nicki-minaj-at-the-mtv-vmas-2017-1610464249-view-0.jpg"
+    }
+  ]
+}

@@ -74,10 +74,17 @@
       <!-- Music Player Interface -->
       <div class="player-container">
         <br /><br /><br /><br /><br />
-        <img class="album-cover" src="{{track_image}}" alt="Album Cover" />
+        <img
+          class="album-cover"
+          src="{{track_image}}"
+          alt="Album Cover"
+          width="400"
+        />
         <div class="song-info">
           <h2 class="song-title">{{track_name}}</h2>
-          <h3 class="artist-name">{{artist_name}}</h3>
+          <a href="/profile/{{artist_id}}" style="text-decoration: none">
+            <h3 class="artist-name">{{artist_name}}</h3>
+          </a>
         </div>
         <div class="player-controls">
           <button id="prev" class="control-btn">&#9668;</button>

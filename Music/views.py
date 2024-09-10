@@ -155,6 +155,8 @@ def search(request):
                     break
                 track_name = track["name"]
                 artist_name = track["artists"][0]["name"]
+                artist_result = search_for_artist(token, artist_name)
+                artist_id = artist_result["id"]
                 duration = track["durationText"]
                 trackid = track["id"]
 
@@ -166,6 +168,7 @@ def search(request):
                 track_list.append({
                     'track_name': track_name,
                     'artist_name': artist_name,
+                    'artist_id': artist_id,
                     'duration': duration,
                     'trackid': trackid,
                     'track_image': track_image,
@@ -299,6 +302,8 @@ def music(request, pk):
         artists_list = data.get("artists", [])
         first_artist_name = artists_list[0].get(
             "name") if artists_list else "No artist found"
+        artist_result = search_for_artist(token, first_artist_name)
+        artist_id = artist_result["id"]
         audio_details_query = track_name + first_artist_name
         audio_details = get_audio_details(audio_details_query)
         audio_url = audio_details[0]
@@ -307,6 +312,7 @@ def music(request, pk):
         context = {
             'track_name': track_name,
             'artist_name': first_artist_name,
+            'artist_id': artist_id,
             'audio_url': audio_url,
             'duration_text': duration_text,
             'track_image': track_image,

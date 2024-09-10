@@ -3,7 +3,10 @@
     {
       "src": "Spotify_Clone/wsgi.py",
       "use": "@vercel/python",
+<<<<<<< HEAD
       "config": { "maxLambdaSize": "15mb", "runtime": "python3.11" }
+=======
+>>>>>>> e3f797b5add9d340291dbd5d49159579880d5147
     }
   ],
   "routes": [

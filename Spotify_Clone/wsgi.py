@@ -14,8 +14,3 @@ from django.core.wsgi import get_wsgi_application
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'Spotify_Clone.settings')
 
 application = get_wsgi_application()
-<<<<<<< HEAD
-app = application
-=======
-app=application
->>>>>>> e3f797b5add9d340291dbd5d49159579880d5147

@@ -53,9 +53,14 @@ Ensure that you have the following installed on your machine:
    SPOTIFY_CLIENT_SECRET=<your-client-secret>
 5. **Token Creation for Spotify API:**
    ```bash
-   The app includes a token creation mechanism to access the Spotify API. It fetches an OAuth token using the client credentials and uses this token to make requests to the Spotify API for search and other       
-   features.   
+   The app includes a token creation mechanism to access the Spotify API. It fetches an OAuth token using the client credentials
+   and uses this token to make requests to the Spotify API for search and other features.   
 6. **Run the server:**
    ```bash
    python manage.py runserver
-  
+![Artist Page](images/Artist.png)
+![Home Page](images/Song.png)
+![Search Page](images/Search.png)
+![SignUp Page](images/Signup.png)
+![Login Page](images/Login.png)
+
